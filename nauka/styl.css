@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+    background-color: black;
+   color: green;
+   font-size: medium;
+}
+input{
+        background-color: white;
+        text-align:  left;
+}
+button{
+    background-color: green;
+    color: white;
+}
+.wybbb{
+    background-color: white;
+    color: #000;
+    text-align: left;
+}

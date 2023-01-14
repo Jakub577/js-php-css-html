@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REJESTRACJA</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+  <header><h1>Zajerejestruj się</h1></header>
+    <section>
+     <form method="post" id="formularz"  >
+       <p>Wprowadź Login:</p>
+       <input id="logi" value="" name="inputLogowanie" type="text">
+       <p>Wprowadź hasło:</p>
+       <input id="haslo1" value="" name="inputHaslo" type="password">
+       <p>Wprowadź ponownie hasło:</p>
+       <input onchange="SprawdzanieHasloCzyJestTakieSame()" id="haslo2" value="" type="password">
+       <p id="yoo"></p>
+       <br><br>
+       
+       <button  type="submit" id="zajer" > Zajerejestruj się!</button>
+       
+     </form>
+    </section>
+  
+    <footer><p id="hohohoh"></p></footer>
+     <script src="main.js"></script>
+</body>
+</html>
